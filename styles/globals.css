@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom font and body background */
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #f7f7f7; /* added a light gray background */
+}
+
+/* Custom background image for the index page */
+.bg-pokemon-bg {
+  background-image: url('/pokemon-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Custom background image for the index page */
+.bg-pokemon-details-bg {
+  background-image: url('/pokemon-details-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Added custom styles for the title and search form */
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.search-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #3e8e41;
+}
+
+/* Custom styles for the Pokemon details page */
+.details-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.details-container:hover {
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.pokemon-image {
+  width: 200px;
+  height: 200px;
+}
+
+.stats-box, .abilities-box, .moves-box {
+  background-color: rgba(240, 240, 240, 0.8);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.stats-box:hover, .abilities-box:hover, .moves-box:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
