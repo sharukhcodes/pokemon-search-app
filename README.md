@@ -58,6 +58,3 @@ Please drop a star is your liked this mini project.
 Contributors: 
 
 
- [mr-robot-abhi](https://github.com/mr-robot-abhi)
- 
- Abhshek Swamy H.M. 
